@@ -54,7 +54,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #header.sticky #navigation li a {color:#000;}
 #header.sticky #navigation ul li a {color:#fff;}
 #header.sticky #navigation li span.border {background-color:#ef6661;}
-#header.sticky #logo .label {background-color:#000;transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);}
+#header.sticky #logo .label {background-color:#000;background-image: url(../img/logo.png);transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);}
 #header.sticky #logo h1 {color:#fff;}
 
 #mobile {display:none;}

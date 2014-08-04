@@ -99,14 +99,6 @@ var App = {
 		
 	},
 	
-	preloaderFinish: function() {
-		
-		$preloader.remove();
-		
-		App.onScreen();
-		
-	},
-	
 	sticky: function() {
 		
 		if($(window).scrollTop() > 100) {
@@ -173,8 +165,8 @@ var App = {
 				effect:"zoom",
 
 				images:[
-					"http://placehold.it/1920x1080/ffadaa",
-					"http://placehold.it/1920x1080/ceffaa",
+					"img/carousel/slide-1.jpg",
+					"img/carousel/slide-2.jpg",
 				]
 				
 			});
