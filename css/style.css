@@ -46,15 +46,15 @@ section.page {margin-top:60px;padding:40px 0;}
 /*----------------------------------------------------*/
 /*	Header
 /*----------------------------------------------------*/
-#header {position:fixed;display:block;width:100%;height:60px;z-index:9;min-width:320px;}
+#header {position:fixed;display:block;width:100%;height:85px;z-index:9;min-width:320px;}
 #header .main {position:relative;z-index:3;}
-#header .after {position:absolute;width:100%;height:100%;top:-60px;z-index:2;background-color:#fff;-webkit-box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);-moz-box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);}
+#header .after {position:absolute;width:100%;height:100%;top:-85px;z-index:2;background-color:#fff;-webkit-box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);-moz-box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);}
 
 #header.sticky .after {top:0;-webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.05);-moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.05);box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.05);}
 #header.sticky #navigation li a {color:#000;}
 #header.sticky #navigation ul li a {color:#fff;}
-#header.sticky #navigation li span.border {background-color:#ef6661;}
-#header.sticky #logo .label {background-color:#000;background-image: url(../img/logo.png);transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);}
+#header.sticky #navigation li span.border {background-color:#1e345f;}
+#header.sticky #logo .label {background-color:#000;background-image: url(../img/logo.png);transform:rotate(0deg) translateY(-30px);-moz-transform:rotate(0deg) translateY(-35px);-webkit-transform:rotate(0deg) translateY(-30px);}
 #header.sticky #logo h1 {color:#fff;}
 
 #mobile {display:none;}
@@ -146,14 +146,15 @@ section.page {margin-top:60px;padding:40px 0;}
 /*----------------------------------------------------*/
 /*	Navigation
 /*----------------------------------------------------*/
-#navigation {float:right;font-size:0;position:relative;top:-25px;text-align:center;width:100%;}
+#navigation {float:right;font-size:0;position:relative;text-align:center;width:100%;}
 #navigation li {display:inline-block;font-size:14px;width:125px;}
 
-#navigation li a {display:block;position:relative;padding:21px 0;margin:0;color:#fff;text-transform:uppercase;font-size:0.9em;}
+#navigation li a {display:block;position:relative;padding-top:21px;padding-bottom:21px;margin:0;color:#fff;text-transform:uppercase;font-size:0.9em;}
 #navigation li span.arrow {position:relative;top:-1px;}
 #navigation li span.border {position:absolute;left:0;bottom:-5px;width:0;height:5px;background-color:#fff;}
 #navigation li a:hover span.border, #navigation li a.active span.border {width:100%;}
 #navigation ul li a:hover {background-color:#fff;color:#000!important;}
+.logo2 { width: 240px !important;}
 
 /* navigation submenu */
 #navigation ul {display:none;position:absolute;margin:0;padding:0;text-align:left;}
@@ -171,7 +172,7 @@ section.page {margin-top:60px;padding:40px 0;}
 /*----------------------------------------------------*/
 #logo {float:left;height:60px;font-size:30px;font-weight:800;font-family: 'Ubuntu', sans-serif;color:#000;line-height:57px;padding:0!important;margin:0;}
 #logo h1 {position:relative;z-index:2;font-size:30px;width:120px;text-align:center;margin:25px 0 0 0;letter-spacing:-0.2rem;color:#000;}
-#logo .label {position:absolute;display:block;background-color:#fff;top:-35px;left:0;width:120px;height:120px;z-index:1;}
+#logo .label {position:absolute;display:block;background-color:#fff;top:-120px;left:0;width:240px;height:240px;z-index:1;}
 
 
 
@@ -195,7 +196,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #portfolio .item .over h3 {color:#fff;font-size:18px;font-weight:300;padding:13px 50px;box-sizing:border-box;width:auto;}
 #portfolio .item.aberto .over {display:none;}
 #portfolio .item:hover > .over {opacity:0;}
-#portfolio .more {position:absolute;left:50%;bottom:10px;width:40px;height:40px;margin-left:-20px;background-color:#ef6661;z-index:6;}
+#portfolio .more {position:absolute;left:50%;bottom:10px;width:40px;height:40px;margin-left:-20px;background-color:#213960;z-index:6;}
 #portfolio .more span {position:absolute;left:14px;top:4px;font-size:22px;color:#fff;}
 
 #portfolio .item.ajax {opacity:0;left:-150px;}
@@ -241,7 +242,7 @@ section.page {margin-top:60px;padding:40px 0;}
 .chart:last-child {margin-right:0;}
 
 /* team */
-#team {float:left;width:100%;padding:20px 0 50px 0;}
+/*#team {float:left;width:100%;padding:20px 0 50px 0;}
 #team .members {font-size:0;text-align:center;}
 #team .members li {display:inline-block;width:220px;margin:0 20px 20px 0;font-size:14px;}
 #team .members li:nth-child(4n) {margin-right:0;}
@@ -258,15 +259,15 @@ section.page {margin-top:60px;padding:40px 0;}
 #team .social {padding-bottom:5px;}
 #team .social li {width:auto;height:auto;margin:0;padding:4px;}
 #team .social a {display:block;width:14px;height:20px;margin:0;padding:2px 4px;color:#000;text-align:center;}
-#team .social a:hover {background-color:#fff;color:#000;}
+#team .social a:hover {background-color:#fff;color:#000;}*/
 
 /* team hover animation */
-#team .member:hover > .info {height:50%;background-color:#000;color:#fff;}
+/*#team .member:hover > .info {height:50%;background-color:#000;color:#fff;}
 #team .member:hover > .info p {height:auto;}
 #team .member:hover > .image img {top:-30px;}
 #team .member:hover > .info:after {border-bottom-color: #000;}
 #team .member:hover > .info .social a {color:#fff;}
-#team .member:hover > .info .social a:hover {color:#000;}
+#team .member:hover > .info .social a:hover {color:#000;}*/
 
 
 /*----------------------------------------------------*/
@@ -283,7 +284,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #core .core-values li .fa {position:absolute;top:39px;left:131px;width:50px;text-align:center;font-size:44px;color:#000;line-height:100%;}
 #core .core-values li h4 {font-size:18px;font-weight:500;background: url(../img/sprite.png) no-repeat 50% -43px;padding-bottom:15px;margin:50px 0 15px 0;}
 #core .core-values li p {font-size:13px;padding:0 30px;margin-top:5px;color:#5e5e5e;}
-#core .core-values li:hover > .core {background-color:#ef6661;}
+#core .core-values li:hover > .core {background-color:#1e345f;}
 #core .core-values li:hover > .fa {color:#fff;}
 
 #services .touch {float:left;width:100%;padding:20px 0;text-align:center;}
