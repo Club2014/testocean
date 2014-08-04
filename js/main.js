@@ -16,8 +16,6 @@ var App = {
 		
 		// on window resize
 		App.onResize();
-		// on window load
-		App.onLoad();
 		// on page scroll
 		App.onScroll();
 		// on document ready
@@ -247,15 +245,6 @@ var App = {
 		
 	},
   
-	onLoad: function() {
-		
-		$(window).load(function() {
-			
-			App.preloader();
-			
-		});
-		
-	},
   
 	onMousewheel: function() {
 		$('html, body').bind('DOMMouseScroll mousewheel', function() {
@@ -349,11 +338,6 @@ var App = {
 		}
 	},
 	
-	preloader: function() {
-		$preloader.delay(1000).fadeOut(300, function() {
-			App.preloaderFinish();
-		});
-	},
 	
 	goTop: function(windowTop) {
 		
@@ -375,20 +359,6 @@ var App = {
 	
 	map: function() {
 		
-		var btn_zoom_in = document.getElementById('zoomin');
-		if (btn_zoom_in !== null) {
-			google.maps.event.addDomListener(btn_zoom_in, 'click', function() {
-				mapObject.setZoom(mapObject.getZoom() + 1 );
-			});
-		}
-
-		var btn_zoom_out = document.getElementById('zoomout');
-		if (btn_zoom_out !== null) {
-			google.maps.event.addDomListener(btn_zoom_out, 'click', function() {
-				mapObject.setZoom(mapObject.getZoom() - 1 );
-			});
-		}
-		
 		var mapContainer = document.getElementById('map');
 		
 		if (mapContainer !== null) {
@@ -401,7 +371,7 @@ var App = {
 	create_map: function(mapContainer) {
 
 		var mapOptions = {
-			center: new google.maps.LatLng(37.40330, -121.98499), //37.36456, -121.92852
+			center: new google.maps.LatLng(14.62106, -61.000462),
 			zoom: 13,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -428,8 +398,8 @@ var App = {
 	create_marker: function() {
 		
 		var pinImage = new google.maps.MarkerImage('img/marker.png'),
-		myPin = new google.maps.LatLng(37.37758, -122.05391);
-		
+		myPin = new google.maps.LatLng(14.592340, -61.069382);
+
 		marker = new google.maps.Marker({
 			position: myPin,
 			map: mapObject,
