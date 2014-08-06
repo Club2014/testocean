@@ -54,7 +54,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #header.sticky #navigation li a {color:#000;}
 #header.sticky #navigation ul li a {color:#fff;}
 #header.sticky #navigation li span.border {background-color:#1e345f;}
-#header.sticky #logo .label {background-color:#000;background-image: url(../img/logo.png);transform:rotate(0deg) translateY(-30px);-moz-transform:rotate(0deg) translateY(-35px);-webkit-transform:rotate(0deg) translateY(-30px);}
+#header.sticky #logo .label {background-color:#000;transform:rotate(0deg) translateY(-30px);-moz-transform:rotate(0deg) translateY(-35px);-webkit-transform:rotate(0deg) translateY(-30px);}
 #header.sticky #logo h1 {color:#fff;}
 
 #mobile {display:none;}
@@ -172,7 +172,7 @@ section.page {margin-top:60px;padding:40px 0;}
 /*----------------------------------------------------*/
 #logo {float:left;height:60px;font-size:30px;font-weight:800;font-family: 'Ubuntu', sans-serif;color:#000;line-height:57px;padding:0!important;margin:0;}
 #logo h1 {position:relative;z-index:2;font-size:30px;width:120px;text-align:center;margin:25px 0 0 0;letter-spacing:-0.2rem;color:#000;}
-#logo .label {position:absolute;display:block;background-color:#fff;top:-120px;left:0;width:240px;height:240px;z-index:1;}
+#logo .label {position:absolute;display:block;background-color:#fff;top:-120px;left:0;width:240px;height:240px;z-index:-1;}
 
 
 
@@ -217,22 +217,22 @@ section.page {margin-top:60px;padding:40px 0;}
 /*	About
 /*----------------------------------------------------*/
 /* facts */
-#about .facts {float:left;width:100%;text-align:center;margin:50px 0 80px 0;}
-#about .facts li {display:inline-block;margin:0 12px;}
-#about .facts strong {font-size:70px;color:#ef6661;display:block;line-height:100%;}
-#about .facts span {color:#000;font-size:20px;}
-#about .facts .break {width:8px;height:8px;background-color:#eee;position:relative;top:-40px;margin-left:15px;margin-right:9px;}
+.facts {float:left;width:100%;text-align:center;margin:50px 0 80px 0;}
+.facts li {display:inline-block;margin:0 12px;}
+.facts strong {font-size:70px;color:#ef6661;display:block;line-height:100%;}
+.facts span {color:#000;font-size:20px;}
+.facts .break {width:8px;height:8px;background-color:#eee;position:relative;top:-40px;margin-left:15px;margin-right:9px;}
 
 /* references */
-#about .references {position:relative;float:left;width:100%;padding:100px 0 100px 0;background:url(http://placehold.it/1920x1080) 50% 50% no-repeat;}
-#about .references .smart-list li {height:200px;}
-#about .references .smart-list img {width:auto;margin:0;border:4px solid #000;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
-#about .references .smart-list h4, .references .smart-list p, .references .smart-list i {color:#fff;}
-#about .references .smart-list li:hover > a img {border-color:#fff;}
-#about .references h2.page-title {color:#fff;font-size:35px;margin:0 0 45px 0;}
-#about .references h2.page-title .border {background-color:#fff;height:1px;bottom:-24px;}
-#about .references h3.page-subtitle {margin-top:34px;color:#c3c3c3;}
-#about .references h3.page-subtitle.white {color:#fff;}
+.references {position:relative;float:left;width:100%;padding:100px 0 100px 0;background:url(http://placehold.it/1920x1080) 50% 50% no-repeat;}
+.references .smart-list li {height:200px;}
+.references .smart-list img {width:auto;margin:0;border:4px solid #000;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
+.references .smart-list h4, .references .smart-list p, .references .smart-list i {color:#fff;}
+.references .smart-list li:hover > a img {border-color:#fff;}
+.references h2.page-title {color:#fff;font-size:35px;margin:0 0 45px 0;}
+.references h2.page-title .border {background-color:#fff;height:1px;bottom:-24px;}
+.references h3.page-subtitle {margin-top:34px;color:#c3c3c3;}
+.references h3.page-subtitle.white {color:#fff;}
 
 /* charts */
 .charts {float:left;width:100%;text-align:center;margin-top:10px;}

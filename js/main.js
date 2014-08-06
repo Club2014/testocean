@@ -2,7 +2,6 @@
 
 var $portfolio = $('#portfolio'),
 	$goTop = $('#go-top'),
-	$preloader = $('#preloader'),
 	InfoBox;
 
 var $window = $(window),
