@@ -58,7 +58,11 @@ section.page {margin-top:60px;padding:40px 0;}
 #header.sticky #logo h1 {color:#fff;}
 
 #mobile {display:none;}
-
+.logoo {
+    width: 146px;
+    margin-left: 47px;
+    margin-top: -14px;
+}
 
 /*----------------------------------------------------*/
 /*	Carousel

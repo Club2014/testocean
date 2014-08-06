@@ -162,7 +162,7 @@ var App = {
 				effect:"zoom",
 
 				images:[
-					"img/carousel/slide-1.jpg",
+					"img/carousel/fond1.jpg",
 					"img/carousel/slide-2.jpg",
 				]
 				
