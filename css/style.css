@@ -317,7 +317,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 /* contacts form */
 #contacts .get-in-touch {position:absolute;top:0;right:0;z-index:4;width:450px;left:50%;top:160px;margin-left:62px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
-#contacts .get-in-touch input, #contacts .get-in-touch textarea, #contacts .get-in-touch button {display:block;width:100%;border:0;background-color:#000;color:#fff;padding:10px;margin-bottom:8px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+#contacts .get-in-touch input, #contacts .get-in-touch textarea, #contacts .get-in-touch button {display:block;width:100%;border:0;background-color:#1E345F;color:#fff;padding:10px;margin-bottom:8px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 #contacts .get-in-touch input.error, #contacts .get-in-touch textarea.error {background-color:#ef6661;}
 #contacts .get-in-touch textarea {height:120px;resize:none;}
 #contacts .get-in-touch .col {float:left;width:31.53333333333%;margin-left:1.8003%;text-align:center;}
