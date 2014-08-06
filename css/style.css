@@ -69,7 +69,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #carousel {position:relative;display:block;width:100%;bottom:0;top:0;height:100%;overflow:hidden;height:300px;}
 #carousel .carousel-holder {position:absolute;display:block;width:100%;height:100%;bottom:0;top:0;background-color:#000;overflow:hidden;}
 #carousel .bg-img {height:100%;}
-#carousel .bg-1 .sl-slide-inner {background: url(../img/carousel/slide-1.jpg) 50% 0;}
+#carousel .bg-1 .sl-slide-inner {background: url(../img/carousel/slide1.jpg) 50% 0;}
 #carousel .bg-img-2 {background-image: url(../img/carousel/slide-2.jpg);}
 #carousel .bg-img-3 {background-image: url(../img/carousel/slide-3.jpg);}
 #carousel .bg-img-4 {background-image: url(../img/carousel/slide-11.jpg);}
