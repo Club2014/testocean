@@ -163,7 +163,8 @@ var App = {
 
 				images:[
 					"img/carousel/fond1.jpg",
-					"img/carousel/slide-2.jpg",
+					"img/carousel/fond2.jpg",
+					"img/carousel/fond3.jpg",
 				]
 				
 			});
