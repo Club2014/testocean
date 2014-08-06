@@ -101,9 +101,11 @@ var App = {
 		if($(window).scrollTop() > 120) {
 			$('#header').addClass('sticky');
 			$('.logoo').attr( 'src', 'img/logo21.png' );
+			$('.logoo').css( 'margin-top', '4px' );
 		}else{
 			$('#header').removeClass('sticky');
 			$('.logoo').attr( 'src', 'img/logo.png' );
+			$('.logoo').css( 'margin-top', '-4px' );
 		}
 		
 	},
