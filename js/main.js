@@ -98,10 +98,12 @@ var App = {
 	
 	sticky: function() {
 		
-		if($(window).scrollTop() > 100) {
+		if($(window).scrollTop() > 120) {
 			$('#header').addClass('sticky');
+			$('.logoo').attr( 'src', 'img/logo21.png' );
 		}else{
 			$('#header').removeClass('sticky');
+			$('.logoo').attr( 'src', 'img/logo.png' );
 		}
 		
 	},
@@ -162,7 +164,7 @@ var App = {
 				effect:"zoom",
 
 				images:[
-					"img/carousel/fond1.jpg",
+					"img/carousel/slide1.jpg",
 					"img/carousel/fond2.jpg",
 					"img/carousel/fond3.jpg",
 				]

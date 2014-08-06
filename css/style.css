@@ -54,7 +54,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #header.sticky #navigation li a {color:#000;}
 #header.sticky #navigation ul li a {color:#fff;}
 #header.sticky #navigation li span.border {background-color:#1e345f;}
-#header.sticky #logo .label {background-color:#000;transform:rotate(0deg) translateY(-30px);-moz-transform:rotate(0deg) translateY(-35px);-webkit-transform:rotate(0deg) translateY(-30px);}
+#header.sticky #logo .label {transform:rotate(0deg) translateY(-30px);-moz-transform:rotate(0deg) translateY(-35px);-webkit-transform:rotate(0deg) translateY(-30px);}
 #header.sticky #logo h1 {color:#fff;}
 
 #mobile {display:none;}
