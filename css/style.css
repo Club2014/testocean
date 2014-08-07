@@ -129,8 +129,7 @@ section.page {margin-top:60px;padding:40px 0;}
 .customers li img {max-width:70%;}
 .customers li .over {opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;border:10px solid #eee;z-index:3;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 .customers li:hover > .over {opacity:1;}
-
-
+#marge {margin-bottom: 80px;}
 
 /*----------------------------------------------------*/
 /*	Screenshots
@@ -225,7 +224,6 @@ section.page {margin-top:60px;padding:40px 0;}
 .facts strong {font-size:70px;color:#EC6347;display:block;line-height:100%;}
 .facts span {color:#000;font-size:20px;}
 .facts .break {width:8px;height:8px;background-color:#eee;position:relative;top:-40px;margin-left:15px;margin-right:9px;}
-
 /* references */
 .references {position:relative;float:left;width:100%;padding:100px 0 100px 0;background:url(../img/carousel/cando.jpg) 50% 50% no-repeat;}
 .references .smart-list li {height:200px;}
