@@ -162,12 +162,12 @@ var App = {
 				controls:"#controls",
 				grayScale:false,
 				preserveWidth:false,
-				effect:"zoom",
+				effect:"slideLeft",
 
 				images:[
-					"img/carousel/slide1.jpg",
-					"img/carousel/fond2.jpg",
-					"img/carousel/fond3.jpg",
+					"img/carousel/fond.jpg",
+					"img/carousel/fond.jpg",
+					"img/carousel/fond.jpg",
 				]
 				
 			});
