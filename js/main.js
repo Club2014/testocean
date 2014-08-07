@@ -161,7 +161,6 @@ var App = {
 				effTimer:4000,
 				controls:"#controls",
 				grayScale:false,
-				shuffle:true,
 				preserveWidth:false,
 				effect:"zoom",
 
