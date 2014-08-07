@@ -161,14 +161,13 @@ var App = {
 				effTimer:4000,
 				controls:"#controls",
 				grayScale:false,
-				shuffle:true,
 				preserveWidth:false,
-				effect:"zoom",
+				effect:"slideLeft",
 
 				images:[
-					"img/carousel/slide1.jpg",
-					"img/carousel/fond2.jpg",
-					"img/carousel/fond3.jpg",
+					"img/carousel/fond.jpg",
+					"img/carousel/fond.jpg",
+					"img/carousel/fond.jpg",
 				]
 				
 			});
