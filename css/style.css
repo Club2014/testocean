@@ -222,12 +222,12 @@ section.page {margin-top:60px;padding:40px 0;}
 /* facts */
 .facts {float:left;width:100%;text-align:center;margin:50px 0 80px 0;}
 .facts li {display:inline-block;margin:0 12px;}
-.facts strong {font-size:70px;color:#ef6661;display:block;line-height:100%;}
+.facts strong {font-size:70px;color:#EC6347;display:block;line-height:100%;}
 .facts span {color:#000;font-size:20px;}
 .facts .break {width:8px;height:8px;background-color:#eee;position:relative;top:-40px;margin-left:15px;margin-right:9px;}
 
 /* references */
-.references {position:relative;float:left;width:100%;padding:100px 0 100px 0;background:url(http://placehold.it/1920x1080) 50% 50% no-repeat;}
+.references {position:relative;float:left;width:100%;padding:100px 0 100px 0;background:url(../img/carousel/cando.jpg) 50% 50% no-repeat;}
 .references .smart-list li {height:200px;}
 .references .smart-list img {width:auto;margin:0;border:4px solid #000;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
 .references .smart-list h4, .references .smart-list p, .references .smart-list i {color:#fff;}
@@ -292,8 +292,8 @@ section.page {margin-top:60px;padding:40px 0;}
 
 #services .touch {float:left;width:100%;padding:20px 0;text-align:center;}
 
-.btn {position:relative;display:inline-block;padding:10px 30px;margin-bottom:30px;background-color:#ef6661;color:#fff;box-shadow:0 4px 0 #ca4641;-moz-box-shadow:0 4px 0 #ca4641;-webkit-box-shadow:0 4px 0 #ca4641;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
-.btn:hover {background-color:#f46f6a;}
+.btn {position:relative;display:inline-block;padding:10px 30px;margin-bottom:30px;background-color:#EC6347;color:#fff;box-shadow:0 4px 0 #c62117;-moz-box-shadow:0 4px 0 #c62117;-webkit-box-shadow:0 4px 0 #c62117;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+.btn:hover {background-color:#e53d26;}
 .btn:active {top:1px;box-shadow:0 3px 0 #ca4641;-moz-box-shadow:0 3px 0 #ca4641;-webkit-box-shadow:0 3px 0 #ca4641;}
 
 #services .testimonial {position:relative;float:left;width:100%;padding:130px 0;text-align:center;background:url(http://placehold.it/1920x1080) 50% 50% no-repeat;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;}
