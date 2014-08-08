@@ -417,7 +417,7 @@ var App = {
 		var boxText = document.createElement("div");
 		boxText.style.cssText = "color:#fff;";
 		/*jshint multistr: true*/
-		boxText.innerHTML = "\
+		/*boxText.innerHTML = "\
 			<div class='marker-label'>\
 				San Jose. Address: 350<br>\
 				Fifth Avenue, 34th floor.<br>\
@@ -425,7 +425,7 @@ var App = {
 				USA Tel: +1-212-290-4700.<br>\
 				Fax: +1-212-736-1300.\
 				</div>\
-			";
+			";*/
 
 		var infoOptions = {
 			content: boxText,
