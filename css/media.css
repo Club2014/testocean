@@ -52,9 +52,9 @@ This file contains all styles for responsive layout
 	
 	.main-text{top:42%;}
 
-	#core .core-values li .core {background-color:#1E345F!important;}
+	#core .core-values li .core {background-color:#ec6347!important;}
 	#core .core-values li .fa {color:#fff!important;}
-	#core .core-values li:hover > .core {background-color:#1e345f;}
+	#core .core-values li:hover > .core {background-color:#ec6347;}
 	#core .core-values li:hover > .fa {color:#fff;}
 	
 	.review .left {width:100%;margin:0;}
